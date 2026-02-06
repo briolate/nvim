@@ -67,6 +67,12 @@ Space (` `)
 
 ## Snacks
 
+### Terminal
+
+- `<leader>tt` - Toggle terminal
+- `<leader>tf` - Toggle terminal (floating)
+- `<C-/>` - Toggle terminal (from normal or terminal mode)
+
 ### Lazygit
 
 - `<leader>lg` - Open Lazygit
@@ -170,6 +176,30 @@ Space (` `)
 - `<leader>ef` - Toggle into currently opened file
 - `<CR>` / `L` (in mini.files) - Enter directory or open file
 - `-` / `H` (in mini.files) - Go to parent directory
+
+## Markdown (Filetype Plugin)
+
+### List Formatting (Normal & Visual Mode)
+
+- `tn` - Toggle numbered list (1. 2. 3.)
+- `tb` - Toggle bullet points (-)
+- `tc` - Toggle checkboxes (- [ ])
+- `tt` - Toggle task state ([ ] ↔ [x])
+- `tl` - Smart list cycle (plain → bullets → checkboxes → numbers → plain)
+
+### Task Management
+
+- `<leader>tc` - Mark all tasks as done
+- `<leader>tu` - Mark all tasks as undone
+
+### Headings
+
+- `<leader>h1` - Toggle H1
+- `<leader>h2` - Toggle H2
+- `<leader>h3` - Toggle H3
+- `<leader>h4` - Toggle H4
+- `<leader>h5` - Toggle H5
+- `<leader>h6` - Toggle H6
 
 ## Native Vim Splits
 

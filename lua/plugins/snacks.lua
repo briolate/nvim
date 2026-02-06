@@ -100,6 +100,11 @@ return {
             { "<leader>rN", function() require("snacks").rename.rename_file() end, desc = "Fast Rename Current File" },
             { "<leader>dB", function() require("snacks").bufdelete() end, desc = "Delete or Close Buffer  (Confirm)" },
 
+            -- Terminal
+            { "<leader>tt", function() require("snacks").terminal() end, desc = "Toggle Terminal" },
+            { "<leader>tf", function() require("snacks").terminal(nil, { win = { position = "float" } }) end, desc = "Terminal (float)" },
+            { "<C-/>", function() require("snacks").terminal() end, desc = "Toggle Terminal", mode = { "n", "t" } },
+
             -- Snacks Picker
             { "<leader>pf", function() require("snacks").picker.files() end, desc = "Find Files (Snacks Picker)" },
             { "<leader>pc", function() require("snacks").picker.files({ cwd = vim.fn.stdpath("config") }) end, desc = "Find Config File" },
