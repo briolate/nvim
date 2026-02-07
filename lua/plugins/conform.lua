@@ -72,4 +72,3 @@ return {
 		end, { desc = "Format whole file or range (in visual mode) with" })
 	end,
 }
-

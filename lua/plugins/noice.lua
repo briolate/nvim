@@ -37,3 +37,4 @@ return {
 	},
 	dependencies = { "MunifTanjim/nui.nvim", "nvim-mini/mini.notify" },
 }
+

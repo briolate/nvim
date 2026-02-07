@@ -23,7 +23,7 @@ return {
 			"--stdin",
 			"--stdin-filename",
 			function()
-                return vim.fn.expand("%:p")
+				return vim.fn.expand("%:p")
 			end,
 		}
 
@@ -39,3 +39,4 @@ return {
 		end, { desc = "Trigger linting for current file" })
 	end,
 }
+
